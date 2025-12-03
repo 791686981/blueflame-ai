@@ -1,0 +1,12 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "weather": "src.agents.weather_agent.agent:agent",
+    "websearch": "src.agents.websearch_assistant.agent:agent",
+    "default": "src.agents.default.agent:agent",
+    "bid_company": "src.agents.bid_company.agent:agent"
+  },
+  "env": ".env"
+}
